@@ -2,8 +2,10 @@ spring:
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/anilallewar/microservices-basics-cloud-config
+        native:
+          search-locations: classpath:/microservices-basics-cloud-config
+        #git:
+          #uri: https://github.com/anilallewar/microservices-basics-cloud-config
 #         username: <>
 #         password: <>
 

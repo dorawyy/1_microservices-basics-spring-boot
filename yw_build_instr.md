@@ -27,3 +27,10 @@ The default service config files managed by the config service is in another rep
 cd ./config-server/src/main/resources
 git clone https://github.com/anilallewar/microservices-basics-cloud-config.git
 ```
+
+---- 
+
+To build containers from source code (using the `docker-compose.dev.yml file`): 
+```
+docker-compose -f docker-compose-yw.yml up
+```

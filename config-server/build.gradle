@@ -9,7 +9,7 @@ apply plugin: 'eclipse'
 
 buildscript {
 	project.ext {
-         springBootVersion = '1.5.6.RELEASE'
+         springBootVersion = '1.5.6.RELEASE' // in spring 1, the contextPath is specified via server.contextPath
          jarName = 'basic-config-server'
          versionName = '0.0.1'
          gradleDockerVersion = '1.2'
